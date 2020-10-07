@@ -1,0 +1,32 @@
+body{
+
+
+}
+
+.one{
+color:red;
+margin-top:30%;
+margin-left:30%;
+animation:ane 3s ease infinite;
+}
+@keyframes ane{
+0%{
+transform:translateY(-50px);
+color:red;
+}
+20%{
+transform:translateX(50px);
+}
+40%{
+transform:translateY(50px);
+color:green;
+}
+60%{
+transform:translateX(-50px);
+color: blue;
+}
+80%{
+transform:translateX(-50px);
+}
+100%{transform:translateY(0px);}
+}
